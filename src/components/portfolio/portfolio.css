@@ -49,9 +49,7 @@
     margin-bottom: 2rem; 
 }
 
-.portfolio__item-content {
-    /* height: 40%; */
-}
+
 
 @media screen and (max-width: 1024px){
     .portfolio__container {
