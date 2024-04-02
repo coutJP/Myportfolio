@@ -12,12 +12,12 @@ const Contact = () => {
     e.preventDefault();
     setMessage(true);
     emailjs
-      .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
-        formRef.current,
-        'X7K7ebhIeOy3YwHki'
-      )
+    .sendForm(
+      'service_b79m9bx',
+      'template_s1r170u',
+      formRef.current,
+      'dTIgKJzDGmACe7WPg'
+    )
       .then(
         (result) => {
           console.log(result.text);

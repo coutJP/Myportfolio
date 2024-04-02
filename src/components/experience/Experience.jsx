@@ -27,14 +27,14 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>React , Redux-toolkit</h4>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Express Js</h4>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Vue Js</h4>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>SASS/SCSS</h4>
@@ -47,14 +47,14 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Bootsrap</h4>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>MaterialUi</h4>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Shopify libraries</h4>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Python</h4>
@@ -63,10 +63,10 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Java</h4>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Laravel</h4>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>C++</h4>

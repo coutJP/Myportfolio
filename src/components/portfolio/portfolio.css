@@ -12,6 +12,17 @@
     transition: var(--transition);
 }
 
+.mybtn{
+        width: max-content;
+        display: flex;
+        /* margin-top:70px; */
+        justify-content: center;
+        align-items: center;
+        color: var( -- color-primary);
+        border-radius: 0.4rem;
+        cursor: pointer;
+        transition: var( -- transition);
+}
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
@@ -39,7 +50,7 @@
 }
 
 .portfolio__item-content {
-    height: 40%;
+    /* height: 40%; */
 }
 
 @media screen and (max-width: 1024px){

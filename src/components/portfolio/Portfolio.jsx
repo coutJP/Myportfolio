@@ -8,7 +8,7 @@ import IMG5 from "../../assets/Jokes Project.jpg";
 import IMG6 from "../../assets/Project4.jpg";
 import React from "react";
 
-//Portfolio function
+// Portfolio function
 const Portfolio = () => {
   const soloProjects = [
     {
@@ -17,8 +17,7 @@ const Portfolio = () => {
       img: IMG1,
       description:"A marketplace designed for buying, selling, and bidding on products and services, complete with live tracking capabilities using Google Maps and an integrated direct messaging system.",
       technologies: "Html | CSS | Javascript | React Js | Redux | Sockets | Maps Api | FireBase",
-      link: "https://educational-website-reactjs.netlify.app/",
-      github: "https://github.com/Rasif-Taghizada/Educational-Website-ReactJs",
+      link: "https://la7i27alak.com",
     },
     {
       id: 2,
@@ -26,8 +25,7 @@ const Portfolio = () => {
       img: IMG4,
       description:"A website that gave you food ideas based on what you like, taking care of your allergies",
       technologies: "React | Redux | Scss | MongoDb",
-      link: "https://covid-19-tracker-weld-nu.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Covid-19-Tracking",
+    
     },
     {
       id: 3,
@@ -35,8 +33,7 @@ const Portfolio = () => {
       img: IMG2,
       description: "A fun chat app, let you connect people registred in the app",
       technologies: "React | FireBase | Scss",
-      link: "https://rubycode-blog-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
+
     },
     {
       id: 4,
@@ -45,8 +42,7 @@ const Portfolio = () => {
       description:
         "Ubeatable tic-tac-toe using artificial intelligence.",
       technologies: "Python",
-      link: "https://alpha-agency-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
+ 
     },
     {
       id: 5,
@@ -55,8 +51,7 @@ const Portfolio = () => {
       description:
         "Track PC performance using data collected from the pc, and analyze it using data science",
       technologies: "React | Python",
-      link: "https://jokes-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Joke-App",
+
     },
     {
       id: 6,
@@ -65,8 +60,7 @@ const Portfolio = () => {
       description:
         "Scrape data from linkedIn, to track university graduates and their work, location .",
       technologies: "React | Puppeteer",
-      link: "https://fs-poster-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
+     
     },
   ];
 
@@ -76,7 +70,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {soloProjects.map((pro) => (
+        {soloProjects.map((pro, index) => (
           <article className="portfolio__item" key={pro.id}>
             <div className="portfolio__item-image">
               <img src={pro.img} alt={pro.title} />
@@ -86,24 +80,18 @@ const Portfolio = () => {
               <p>{pro.description}</p>
               <p>{pro.technologies}</p>
             </div>
-            {/* <div className="portfolio__item-cta">
-              <a
-                href={pro.github}
-                target="_blank"
-                className="btn"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-              <a
-                href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
-            </div> */}
+            <div>
+              {index === 0 && (
+                <a
+                  href={pro.link}
+                  target="_blank"
+                  className="mybtn"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              )}
+            </div>
           </article>
         ))}
       </div>
