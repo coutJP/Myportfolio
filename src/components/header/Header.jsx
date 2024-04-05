@@ -1,6 +1,5 @@
 import React from 'react';
 import CTA from './CTA';
-import HeaderSocials from './HeaderSocials';
 import './header.css';
 
 const Header = () => {
@@ -14,7 +13,6 @@ const Header = () => {
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
-        {/* <HeaderSocials /> */}
       </div>
     </header>
   );
