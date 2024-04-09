@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.194732eb.css",
-    "main.js": "/static/js/main.8396da8b.js",
-    "static/media/Me.png": "/static/media/Me.ba3016694f59ecaa4161.png",
-    "static/media/Educational Website.jpg": "/static/media/Educational Website.9d6935586b48c126aaae.jpg",
-    "static/media/Jokes Project.jpg": "/static/media/Jokes Project.ba73b4b916509e069238.jpg",
-    "static/media/JeanPaulMansourResume.pdf": "/static/media/JeanPaulMansourResume.9c7450daa7f76a04c779.pdf",
-    "static/media/Project4.jpg": "/static/media/Project4.abdad709cdb92ac73326.jpg",
-    "static/media/RubyCode Blog Project.jpg": "/static/media/RubyCode Blog Project.c907fd46aff32130af97.jpg",
-    "static/media/Startup Agency Project.jpg": "/static/media/Startup Agency Project.8e7f12359479465dbbb5.jpg",
-    "static/media/Covid-19 Project.jpg": "/static/media/Covid-19 Project.ee58c38ee617511f68a3.jpg",
-    "index.html": "/index.html",
-    "main.194732eb.css.map": "/static/css/main.194732eb.css.map",
-    "main.8396da8b.js.map": "/static/js/main.8396da8b.js.map"
+    "main.css": "/Myportfolio/static/css/main.194732eb.css",
+    "main.js": "/Myportfolio/static/js/main.1ca14491.js",
+    "static/media/Me.png": "/Myportfolio/static/media/Me.ba3016694f59ecaa4161.png",
+    "static/media/Educational Website.jpg": "/Myportfolio/static/media/Educational Website.9d6935586b48c126aaae.jpg",
+    "static/media/Jokes Project.jpg": "/Myportfolio/static/media/Jokes Project.ba73b4b916509e069238.jpg",
+    "static/media/JeanPaulMansourResume.pdf": "/Myportfolio/static/media/JeanPaulMansourResume.9c7450daa7f76a04c779.pdf",
+    "static/media/Project4.jpg": "/Myportfolio/static/media/Project4.abdad709cdb92ac73326.jpg",
+    "static/media/RubyCode Blog Project.jpg": "/Myportfolio/static/media/RubyCode Blog Project.c907fd46aff32130af97.jpg",
+    "static/media/Startup Agency Project.jpg": "/Myportfolio/static/media/Startup Agency Project.8e7f12359479465dbbb5.jpg",
+    "static/media/Covid-19 Project.jpg": "/Myportfolio/static/media/Covid-19 Project.ee58c38ee617511f68a3.jpg",
+    "index.html": "/Myportfolio/index.html",
+    "main.194732eb.css.map": "/Myportfolio/static/css/main.194732eb.css.map",
+    "main.1ca14491.js.map": "/Myportfolio/static/js/main.1ca14491.js.map"
   },
   "entrypoints": [
     "static/css/main.194732eb.css",
-    "static/js/main.8396da8b.js"
+    "static/js/main.1ca14491.js"
   ]
 }
