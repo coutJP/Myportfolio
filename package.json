@@ -1,7 +1,10 @@
 {
   "name": "portfolio---react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://coutJP.github.io/Myportfolio",
+
+
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
